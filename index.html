@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vert Hotels</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <section id="video">
+        <video id="mainVideo" autoplay loop muted defaultMuted playsinline>
+            <source src="mainVideo copy.mp4" type="video/mp4">
+        </video>
+        <div class="title">
+            <h1 class="titlePart">welcome to</h1><h1 class="titlePart">your perfect Israel experience</h1>
+        </div>
+        <video id="mainVideoTest" autoplay loop muted defaultMuted playsinline>
+            <source src="test.mp4" type="video/mp4">
+        </video>
+       
+    </section>
+
+    <nav class="menu">
+        <button id="menuButton"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="50" height="50" class="menuButtonSVG"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Menu / Menu_Duo_MD"> <path id="Vector" d="M5 15H19M5 9H19" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g></svg></button>
+        <div>
+            <button class="signIn">sign in</button>
+            <button class="bookNow">book now</button>
+        </div>
+    </nav>  
+    
+    <div class="hiddenMenu">
+
+        <div class="logo part">
+           <img src="logo.png" alt="logo" width="150px">
+        </div>
+    
+        <div class="upperPart part">
+          <div>
+            <div class="columnOne">
+                <a class="link one dest" href="#destination">Destinations</a>
+                <a class="link one room" href="#rooms">Rooms & Suites</a>
+                    <a class="link one rest" href="#restaurants">Restaurants & Bars</a>
+                    <a class="link one spaButton" href="#spa">Luxury Spa</a>
+                    <a class="link one event" href="#events">Events</a>
+            </div>
+         
+            <div class="columnTwo">
+                    <a class="link two aboutUs" href="#about_us">About us</a>
+                    <a class="link two contactUs" href="#contact_us">Contact us</a>
+            </div>
+        </div>
+            <div class="columnThree">
+    
+                    <p class="addressHeader">Locations</p>
+                    <p class="address">Ein Bokek, <span>Dead Sea</span></p>
+                    <p class="address">Kamen Street, <span>Eilat</span></p>
+                    <p class="address">HaAliya St 1, <span>Jerusalem</span></p>
+                    <p class="address addressLast">Kehilat Tsefat St, <span>Netanya</span></p>
+            </div>
+            
+        </div>
+        
+            <div class="lowerPart part">
+                <p>share your moments</p>
+                <p class="momentsText">#vert  @vert</p>
+                <div class="icons">
+                <a href="https://www.instagram.com/vert_hotels" target="_blank" class="social"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="50" height="50"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3.06167 7.24464C3.10844 6.22264 3.26846 5.56351 3.48487 5.00402L3.48778 4.99629C3.70223 4.42695 4.03818 3.91119 4.47224 3.48489L4.47833 3.47891L4.48431 3.47282C4.91096 3.0382 5.42691 2.70258 5.99575 2.4887L6.00556 2.48495C6.56378 2.26786 7.22162 2.10843 8.24447 2.06167M3.06167 7.24464C3.0125 8.33659 2.99997 8.67508 2.99997 11.5063C2.99997 14.3381 3.01181 14.6758 3.06164 15.768M3.06167 7.24464L3.06167 7.52008M3.48867 18.0168C3.70255 18.5856 4.03817 19.1015 4.47279 19.5282L4.47887 19.5342L4.48484 19.5402C4.91116 19.9743 5.42694 20.3103 5.99628 20.5247L6.00478 20.5279C6.56351 20.7446 7.22167 20.9041 8.24447 20.9509M3.48867 18.0168L3.48492 18.0069C3.26783 17.4487 3.1084 16.7909 3.06164 15.768M3.48867 18.0168L3.47585 17.9492M3.06164 15.768L3.07839 15.8562M3.06164 15.768L3.06164 15.4919M3.47585 17.9492L3.07839 15.8562M3.47585 17.9492C3.30704 17.5033 3.13322 16.881 3.07839 15.8562M3.47585 17.9492C3.48177 17.9649 3.48768 17.9803 3.49359 17.9955C3.70766 18.5726 4.04685 19.0952 4.48679 19.5256C4.91708 19.9655 5.43944 20.3046 6.01636 20.5187C6.47934 20.699 7.13172 20.8875 8.24431 20.9385C9.3671 20.9896 9.71399 21 12.5062 21C15.2985 21 15.6457 20.9896 16.7685 20.9385C17.8824 20.8874 18.534 20.6979 18.9954 20.519C19.5726 20.305 20.0953 19.9657 20.5257 19.5256C20.9655 19.0953 21.3046 18.573 21.5187 17.9961C21.699 17.5331 21.8875 16.8808 21.9384 15.7682C21.9895 14.6454 22 14.2978 22 11.5063C22 8.71472 21.9895 8.36684 21.9384 7.24405C21.8871 6.12427 21.6959 5.47168 21.5161 5.00992C21.2811 4.40322 20.9831 3.94437 20.525 3.48627C20.0678 3.02999 19.6102 2.73179 19.003 2.49654C18.5396 2.31537 17.8866 2.12531 16.7685 2.07406C16.6712 2.06964 16.5798 2.06552 16.4921 2.06168M3.07839 15.8562C3.07684 15.8273 3.07539 15.7981 3.07403 15.7685C3.06961 15.6712 3.06548 15.5797 3.06164 15.4919M8.24447 2.06167C9.33668 2.01184 9.67505 2 12.5062 2C15.3374 2 15.6756 2.01252 16.7675 2.06168M8.24447 2.06167L8.52062 2.06167M16.7675 2.06168L16.4921 2.06168M16.7675 2.06168C17.7897 2.10844 18.4489 2.26844 19.0085 2.48487L19.0162 2.48781C19.5855 2.70226 20.1013 3.03821 20.5276 3.47227L20.5335 3.4783L20.5396 3.48422C20.9737 3.91055 21.3096 4.42646 21.5239 4.99596L21.5275 5.00559C21.7446 5.56381 21.9041 6.22165 21.9508 7.2445M8.52062 2.06167L16.4921 2.06168M8.52062 2.06167C9.44548 2.02123 9.95666 2.01253 12.5062 2.01253C15.056 2.01253 15.5671 2.02124 16.4921 2.06168M8.52062 2.06167C8.43284 2.06551 8.34134 2.06964 8.24402 2.07406C7.13004 2.12512 6.47843 2.31464 6.01708 2.49358C5.43767 2.70837 4.91328 3.04936 4.48192 3.49186C4.0281 3.94756 3.73105 4.40422 3.49655 5.0094C3.31536 5.4728 3.12527 6.12614 3.07402 7.24434C3.06961 7.34135 3.06549 7.43257 3.06167 7.52008M21.9508 15.768C21.9041 16.7908 21.7446 17.449 21.5279 18.0077L21.5247 18.0162C21.3102 18.5856 20.9743 19.1013 20.5402 19.5276L20.5341 19.5336L20.5282 19.5397C20.1015 19.9743 19.5856 20.3099 19.0167 20.5238L19.0069 20.5276C18.4487 20.7447 17.7908 20.9041 16.768 20.9509M3.06164 15.4919C3.0212 14.567 3.0125 14.0558 3.0125 11.5063C3.0125 8.95591 3.0212 8.44544 3.06167 7.52008M3.06164 15.4919L3.06167 7.52008M10.8155 15.5881C11.3515 15.8101 11.926 15.9244 12.5062 15.9244C13.678 15.9244 14.8018 15.4589 15.6304 14.6304C16.4589 13.8018 16.9244 12.678 16.9244 11.5063C16.9244 10.3345 16.4589 9.21072 15.6304 8.38215C14.8018 7.55359 13.678 7.0881 12.5062 7.0881C11.926 7.0881 11.3515 7.20238 10.8155 7.42442C10.2794 7.64645 9.79239 7.97189 9.38213 8.38215C8.97187 8.79242 8.64643 9.27947 8.42439 9.81551C8.20236 10.3515 8.08808 10.9261 8.08808 11.5063C8.08808 12.0865 8.20236 12.661 8.42439 13.197C8.64643 13.7331 8.97187 14.2201 9.38213 14.6304C9.79239 15.0406 10.2794 15.3661 10.8155 15.5881ZM9.37229 8.37231C10.2035 7.54113 11.3308 7.07418 12.5062 7.07418C13.6817 7.07418 14.809 7.54113 15.6402 8.37231C16.4714 9.20349 16.9383 10.3308 16.9383 11.5063C16.9383 12.6817 16.4714 13.809 15.6402 14.6402C14.809 15.4714 13.6817 15.9383 12.5062 15.9383C11.3308 15.9383 10.2035 15.4714 9.37229 14.6402C8.54111 13.809 8.07416 12.6817 8.07416 11.5063C8.07416 10.3308 8.54111 9.20349 9.37229 8.37231ZM19.434 6.04229C19.434 6.37873 19.3003 6.70139 19.0625 6.93929C18.8246 7.17719 18.5019 7.31084 18.1655 7.31084C17.829 7.31084 17.5064 7.17719 17.2685 6.93929C17.0306 6.70139 16.8969 6.37873 16.8969 6.04229C16.8969 5.70585 17.0306 5.38319 17.2685 5.1453C17.5064 4.9074 17.829 4.77375 18.1655 4.77375C18.5019 4.77375 18.8246 4.9074 19.0625 5.1453C19.3003 5.38319 19.434 5.70585 19.434 6.04229Z" stroke="#000000" stroke-linejoin="round"></path> </g></svg></a>
+                <a href="https://www.facebook.com/VertHotels" target="_blank" class="social"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="50" height="50"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M22 12C22 6.47714 17.5229 1.99999 12 1.99999C6.47715 1.99999 2 6.47714 2 12C2 16.9913 5.65686 21.1283 10.4375 21.8785V14.8906H7.89844V12H10.4375V9.79687C10.4375 7.29062 11.9304 5.90624 14.2146 5.90624C15.3087 5.90624 16.4531 6.10155 16.4531 6.10155V8.56249H15.1921C13.9499 8.56249 13.5625 9.33333 13.5625 10.1242V12H16.3359L15.8926 14.8906H13.5625V21.8785C18.3431 21.1283 22 16.9913 22 12Z" stroke="#000000" stroke-linejoin="round"></path> </g></svg></a>
+            </div>
+            </div>
+    
+    </div>
+
+    <form class="formSignIn">
+    <div class="left">
+        <h2 class="object">Sign In</h2>
+       
+        <div class="object">
+            <input type="email" placeholder="Enter your Email" id="myEmail">
+        </div>
+
+        <div class="object">
+            <input type="password" placeholder="password" id="password">
+        </div>
+       
+        <div class="object objectSpecial">
+            <button class="btn noActionSignIn">Sign In</button>
+            <a class="link">Forgotten Password?</a>
+        </div>
+
+        
+
+        <h2 class="object signUp">Sign Up now!</h2>
+       
+        <div class="object">
+            <input type="email" placeholder="Enter your Email" id="yourEmail">
+            <button class="btn noActionSignUp">Sign Up</button>
+        </div>
+    </div>
+    <hr>
+    <div class="right">
+        <h2>Vert Loyalty</h2>
+        <ul>
+            <li>Get 10% discount on all bookings</li>
+            <li>Late check-out on request & availability</li>
+            <li>Collect points or Miles and much more</li>
+        </ul>
+        <h3 class="signUp">Get rewarded for your loyalty!</h3>
+    </div>
+    </form>
+
+    <form class="formBookNow">
+    <div class="dates"> 
+        <div>
+            <input type="date" class="from">
+        </div>
+
+        <div>
+            <input type="date" class="to">
+        </div>
+        
+        <div>
+            <button class="btnBook noActionBook">book now</button>
+        </div>
+    </div>  
+
+
+    <div class="dropDown">
+        <div class="container">
+            <p>Room</p>
+            <div class="objectOne">
+                <button type="button" class="size plus">+</button>
+                <input type="number" id="room" value="1">
+                <button type="button" class="size minus">-</button>
+            </div>
+        </div>
+
+        <div class="container">
+            <p>Adults Per Room</p>
+            <div class="objectOne">
+                <button type="button" class="size" id="plusA">+</button>
+                <input type="number" id="adult" value="1">
+                <button type="button" class="size" id="minusA">-</button>
+            </div>
+        </div>
+
+        <div class="container">
+            <p>Child</p>
+            <div class="objectOne">
+                <button type="button" class="size" id="plusC">+</button>
+                <input type="number" id="child" value="0">
+                <button type="button" class="size" id="minusC">-</button>
+            </div>
+        </div>
+
+        <div class="container">
+            <p>Special Rates</p>
+            <select class="objectOne" id="select">
+                <option selected id="none">None</option>
+                <option id="goverment">Goverment/Military Business</option>
+                <option id="military">Military/Veteran Leisure</option>
+                <option id="senior">Senior</option>
+                <option id="code">Special Offer Code</option>
+                <option id="group">Corporate or Group Code</option>
+            </select>
+        </div>
+        
+        <div class="checkboxC">
+            <label class="checkbox"><input type="checkbox" id="checkboxOne"> Accesible Room</label>
+            <label class="checkbox"><input type="checkbox" id="checkboxTwo"> Use Points</label>
+        </div>
+    </div>
+    </form>    
+
+
+    <div class="hotelInfoE">
+    <div class="containerHotel">
+    <div class="hotelPics">
+    <div class="itemsSmall">
+        <img class="itemHotel eilatOne" src="eilat1.jpeg" width="150px" alt="eilat">
+        <img class="itemHotel eilatTwo" src="eilat2.jpeg" width="150px" alt="eilat">
+        <img class="itemHotel eilatThree bigger" src="eilat3.jpeg" width="150px" alt="eilat">
+        <img class="itemHotel eilatFour bigger" src="eilat4.jpeg" width="150px" alt="eilat">
+    </div>
+    <div>
+        <img class="itemLarge" src="eilat1.jpeg" height="443px" width="630px" alt="eilat">
+    </div>
+    <div class="info">
+        <h2 class="headerHotel">Vert Hotel Eilat</h2>
+        <p class="headerHotelSmall">Address: Kamen St, North Beach</p>
+        <p class="headerHotelSmall">Check-in From 15:00 / Check-out Until 11:00</p>
+        <p class="headerHotelSmall">Most popular facilities:</p>
+        <div class="itemsF">
+            <p class="itemF">Fabulous breakfast</p>
+            <p class="itemF">Spa and wellness centre</p>
+            <p class="itemF">Non-smoking rooms</p>
+            <p class="itemF">Free parking</p>
+            <p class="itemF">Free WiFi</p>
+            <p class="itemF">Outdoor swimming pool</p>
+        </div>
+    </div>
+    </div>
+    <div class="hotelText">
+    <p class="textHotel">Take a moment to enjoy nature’s beauty and hues, the sun’s gold and the sea’s blue. Our new Vert Eilat merges the panoramic Red Sea landscape with the hotel’s unique oriental styling. Blending beauty and comfort, Vert Eilat’s rooms are among the most spacious available among the city’s hotels and include a sun balcony where guests can sit and relax.
+    </p><p class="textHotel">Optimally located on the northern beach promenade, Vert Eilat provides easy walking access to all focal points including the mall, the sea, and leisure activities. Vert Eilat present a new complex of function halls, a PlayZone complex for youth, the spa and wellness center, and a range of activities emphasizing health and fitness.</p>
+    </div>
+    </div>
+    </div>
+
+
+    <div class="hotelInfoD">
+    <div class="containerHotelD">
+    <div class="hotelPics">
+    <div class="itemsSmall">
+        <img class="itemHotel seaOne" src="dSea.jpeg" width="150px" alt="dead sea">
+        <img class="itemHotel seaTwo" src="dSea1.jpeg" width="150px" alt="dead sea">
+        <img class="itemHotel seaThree" src="dSea2.jpeg" width="150px" alt="dead sea">
+        <img class="itemHotel seaFour" src="dSea3.jpeg" width="150px" alt="dead sea">
+    </div>
+    <div>
+        <img class="itemLargeD" src="dSea.jpeg" height="429px" width="630px" alt="dead sea">
+    </div>
+    <div class="info">
+        <h2 class="headerHotel">Vert Hotel Dead Sea</h2>
+        <p class="headerHotelSmall">Address: Ein Bokek</p>
+        <p class="headerHotelSmall">Check-in From 15:00 / Check-out Until 11:00</p>
+        <p class="headerHotelSmall">Most popular facilities:</p>
+        <div class="itemsF">
+            <p class="itemF">Fabulous breakfast</p>
+            <p class="itemF">Spa and wellness centre</p>
+            <p class="itemF">Beachfront</p>
+            <p class="itemF">Free parking</p>
+            <p class="itemF">Free WiFi</p>
+            <p class="itemF">2 swimming pools</p>
+            <p class="itemF">Tea/coffee maker in all rooms</p>
+            
+        </div>
+    </div>
+    </div>
+    <div class="hotelText">
+    <p class="textHotel">Treat yourselves to a moment of unique beauty and tranquility where the stunning desert landscape meets the Dead Sea’s turquoise hue.
+    </p><p class="textHotel">Vert Dead Sea is our new elegant and indulgent vacation and spa site. Adjacent to the beach of Dead Sea , Vert Dead Sea is located at the lowest place on earth, defined as one of the wonders of the world. Vert Dead Sea is in complete harmony with nature. Indulge yourselves with a vacation in our newly designed suites and hotel rooms facing this rarest of nature’s scenic vistas.</p>
+    <p class="textHotel">Enjoy our pampering spa experience with more than 60 treatment options, an abundance of wellness activities with an emphasis on health, fitness and rejuvenation, our unique swimming pool containing Dead Sea water, the sulfur rich health pool, saunas, and Dead Sea mud treatments.
+    </p>
+    <p class="textHotel">Is hiking your hobby? Vert Dead Sea is conveniently near the starting point of hiking trails that are among the most beautiful in the country and the world, especially Nahal Ein Bokek (Bokek Springs) and the Ein Gedi Reserve.
+    </p>
+
+    </div>
+    </div>
+    </div>
+
+    <div class="hotelInfoJ">
+    <div class="containerHotelJ">
+    <div class="hotelPics">
+    <div class="itemsSmall">
+        <img class="itemHotel jerusalemOne" src="jerusalem1.jpeg" width="150px" alt="jerusalem">
+        <img class="itemHotel jerusalemTwo" src="jerusalem2.jpeg" width="150px" alt="jerusalem">
+        <img class="itemHotel jerusalemThree" src="jerusalem3.jpeg" width="150px" alt="jerusalem">
+        <img class="itemHotel jerusalemFour" src="jerusalem4.jpeg" width="150px" alt="jerusalem">
+    </div>
+    <div>
+        <img class="itemLargeJ" src="jerusalem1.jpeg" height="429px" width="630px" alt="jerusalem">
+    </div>
+    <div class="info">
+        <h2 class="headerHotel">Vert Hotel Jerusalem</h2>
+        <p class="headerHotelSmall">Address: HaAliya St 1, Givat Ram</p>
+        <p class="headerHotelSmall">Check-in From 15:00 / Check-out Until 11:00</p>
+        <p class="headerHotelSmall">Most popular facilities:</p>
+        <div class="itemsF">
+            <p class="itemF">Fabulous breakfast</p>
+            <p class="itemF">Spa and wellness centre</p>
+            <p class="itemF">Non-smoking rooms</p>
+            <p class="itemF">Private parking</p>
+            <p class="itemF">Free WiFi</p>
+            <p class="itemF">Outdoor swimming pool</p>
+            <p class="itemF">Tea/coffee maker in all rooms</p>
+        
+        </div>
+    </div>
+    </div>
+    <div class="hotelText">
+    <p class="textHotel">Vert Jerusalem is one of Jerusalem’s highest points on the city’s skyline, offering vistas of Jerusalem’s neighborhood’s and historic sites. Enjoy Vert Jerusalem’s beautifully designed suites and executive rooms, restaurants, the lobby’s international atmosphere, a stunning business lounge on the 21st floor, and a modern complex of events and conference halls.</p>
+    <p class="textHotel">Indulge yourselves, relax and de-stress at Vert Jerusalem’s spa center with our body balancing and wellness treatments.</p>
+    <p class="textHotel">Conveniently close to the International Convention Center, Vert Jerusalem is also an easy walk from the museum complex, Israel's Knesset (Parliament) and the Supreme Court. Also nearby are the charming alleys of the Nahlaot neighborhood and Mahane Yehuda, vibrant marketplace by day and pulsating hub of entertainment by night. You’ll enjoy our location at the city’s main entrance and an easy 5 minute walk from the fast train to Tel Aviv.</p>
+    </div>
+    </div>
+    </div>
+
+    <div class="hotelInfoN">
+<div class="containerHotelN">
+    <div class="hotelPics">
+    <div class="itemsSmall">
+        <img class="itemHotel netanyaOne" src="netanya1.jpeg" width="150px" alt="netanya">
+        <img class="itemHotel netanyaTwo" src="netanya2.jpeg" width="150px" alt="netanya">
+        <img class="itemHotel netanyaThree" src="netanya3.jpeg" width="150px" alt="netanya">
+        <img class="itemHotel netanyaFour" src="netanya4.jpeg" width="150px" alt="netanya">
+    </div>
+    <div>
+        <img class="itemLargeN" src="netanya1.jpeg" height="429px" width="630px" alt="netanya">
+    </div>
+    <div class="info">
+        <h2 class="headerHotel">Vert Hotel Netanya</h2>
+        <p class="headerHotelSmall">Address: Kehilat Tsefat St</p>
+        <p class="headerHotelSmall">Check-in From 15:00 / Check-out Until 11:00</p>
+        <p class="headerHotelSmall">Most popular facilities:</p>
+        <div class="itemsF">
+            <p class="itemF">Fabulous breakfast</p>
+            <p class="imag">Beachfront</p>
+            <p class="imag">Spa and wellness centre</p>
+            <p class="itemF">Non-smoking rooms</p>
+            <p class="itemF">Free parking</p>
+            <p class="itemF">Free WiFi</p>
+            <p class="itemF">Outdoor swimming pool</p>
+            
+        
+        </div>
+    </div>
+    </div>
+    <div class="hotelText">
+    <p class="textHotel">Treat yourselves to a moment of beauty where the landscape’s green meets the blue sea.
+        Our new VERT Lagoon Hotel, located high on the Netanya bluffs, overlooks the sparkling Mediterranean Sea. Vert Lagoon, Netanya’s most exclusive hotel, is the ultimate blend of elegance, luxury and lifestyle.</p>
+    <p class="textHotel">Vert Lagoon suites and rooms come with sea view balconies. Vert Lagoon offers a beautiful infinity pool, an elaborate spa complex with a genuine Turkish bath, and a range of wellness options focusing on health, fitness and rejuvenation.  As our guest, you'll enjoy the perfect balance of luxury, body and soul indulgence, and nature.</p>
+    <p class="textHotel">VERT Lagoon offers a range of highest quality services and facilities, culinary delights in our beautifully appointed restaurants, an exclusive business lounge, and conference and events halls. Vert Lagoon, on Netanya’s southern shoreline, offers easy access to the city center and Israel’s highways.</p>
+    </div>
+</div>
+    </div>
+
+
+    <div class="button">
+    <button id="playPause"><svg viewBox="0 0 48 48" id="b" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <defs> <style>.o{fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;}</style> </defs> <g id="c"> <line id="d" class="o" x1="13.1159" y1="11.7737" x2="13.1159" y2="36.2263"></line> <line id="e" class="o" x1="8.8039" y1="16.8329" x2="8.8039" y2="31.1671"></line> <line id="f" class="o" x1="4.5" y1="21.4705" x2="4.5" y2="26.5295"></line> <line id="g" class="o" x1="17.4569" y1="16.8329" x2="17.4569" y2="31.1671"></line> <line id="h" class="o" x1="21.9465" y1="21.4705" x2="21.9465" y2="26.5295"></line> </g> <g id="i"> <line id="j" class="o" x1="34.6693" y1="11.7737" x2="34.6693" y2="36.2263"></line> <line id="k" class="o" x1="30.3573" y1="16.8329" x2="30.3573" y2="31.1671"></line> <line id="l" class="o" x1="26.0535" y1="21.4705" x2="26.0535" y2="26.5295"></line> <line id="m" class="o" x1="39.0104" y1="16.8329" x2="39.0104" y2="31.1671"></line> <line id="n" class="o" x1="43.5" y1="21.4705" x2="43.5" y2="26.5295"></line> </g> </g></svg></button>
+    </div>
+
+    <audio id="audio" loop>
+    <source src="mainAudio.mp3" type="audio/mp3">
+    </audio>
+
+ 
+    <section id="destination">
+<div class="destinations">
+    <h2 class="header">Destinations</h2>
+    <p class="headerSmall">Explore Israel with Vert. Where will you go?</p>
+</div>
+
+
+<div class="images">
+    <div class="blog">
+        <img src="dead_sea.jpeg" alt="dead sea"/>
+      <div class="text">
+        <h2 class="card">Dead Sea</h2>
+        <p>Take a moment for yourselves <br> to soak in the beautiful desert <br> and turquoise sea</p>
+        <button class="btnCard discoverD">Discover more</button>
+      </div>
+    </div>
+    <div class="blog">
+      <img src="eilat.webp" alt="eilat"/>
+    <div class="text">
+        <h2 class="card">Eilat</h2>
+        <p>Relax surrounded by <br> beautiful natural, <br> golden hills, <br> blue sea and sun</p>
+        <button class="btnCard discoverE">Discover more</button>
+    </div>
+  </div>
+  <div class="blog">
+    <img src="jerusalem.webp" alt="jerusalem" />
+  <div class="text">
+    <h2 class="card">Jerusalem</h2>
+    <p>Enjoy a magical city <br> full of history and splendor</p>
+    <button class="btnCard discoverJ">Discover more</button>
+  </div>
+  </div>
+  <div class="blog">
+    <img src="netanya.jpeg" alt="netanya"/>
+  <div class="text">
+    <h2 class="card">Netanya</h2>
+    <p>Take a relaxing moment and <br> enjoy the beautiful blue sea <br> and natural green surroundings</p>
+    <button class="btnCard discoverN">Discover more</button>
+  </div>
+  </div>
+</div>
+    </section>
+
+    <section id="rooms">
+    
+    <div class="headerRooms">
+        <h2 class="header headerSuites">Rooms & Suites</h2>
+        <p class="headerSmall headerSmallSuites">Take a moment to relax and pamper yourself in one of our elegant rooms or spacious suites, with their unforgettable views</p> 
+        <hr class="hrRoom">
+    </div>
+    
+    
+    <div class="rooms">
+    <div class="sliderRooms">
+        <img id="picturesRooms" src="room.jpeg" alt="rooms">
+        <div>
+            <button id="backRooms" class="btnR"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="30" height="30" class="pictureButtons"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M14.9991 19L9.83911 14C9.56672 13.7429 9.34974 13.433 9.20142 13.0891C9.0531 12.7452 8.97656 12.3745 8.97656 12C8.97656 11.6255 9.0531 11.2548 9.20142 10.9109C9.34974 10.567 9.56672 10.2571 9.83911 10L14.9991 5" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></button>
+            <button id="nextRooms" class="btnR"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="30" height="30" class="pictureButtons"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9 5L14.15 10C14.4237 10.2563 14.6419 10.5659 14.791 10.9099C14.9402 11.2539 15.0171 11.625 15.0171 12C15.0171 12.375 14.9402 12.7458 14.791 13.0898C14.6419 13.4339 14.4237 13.7437 14.15 14L9 19" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></g></svg></button>
+        </div>
+    </div>
+    
+    <div class="buttons">
+        <button id="btnR" class="btnRoom">Rooms</button>
+        <button id="btnS" class="btnRoom">Suites</button>
+    </div>
+    </div>
+    </section>
+
+    <section id="restaurants">
+    <hr class="restaurantHRMain">
+    <div class="restaurantsHeader">
+        <h2 class="header headerR">Restaurants & Bars</h2>
+        <p class="headerSmall">Take a moment to enjoy quality and rich local cuisine</p> 
+    </div>
+    <div class="restaurantsMain">
+        <div class="restaurants">
+            <p class="textR">We provide a wonderful culinary experience with a menu that combines produce from the best local farms.</p>
+            <p class="textSecond textR">Sip on a bottle of fine and order delicacies from our renowned chefs who cook right before your eyes and serve personalized dishes according to your taste and choice.</p>
+            <hr class="restaurantHR">
+        </div>
+        <div class="slider">
+            <img id="pictures" src="rest1.jpeg" alt="restaurant">
+            <div >
+                <button id="back" class="btnR"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="30" height="30"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M14.9991 19L9.83911 14C9.56672 13.7429 9.34974 13.433 9.20142 13.0891C9.0531 12.7452 8.97656 12.3745 8.97656 12C8.97656 11.6255 9.0531 11.2548 9.20142 10.9109C9.34974 10.567 9.56672 10.2571 9.83911 10L14.9991 5" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></button>
+                <button id="next" class="btnR"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="30" height="30"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9 5L14.15 10C14.4237 10.2563 14.6419 10.5659 14.791 10.9099C14.9402 11.2539 15.0171 11.625 15.0171 12C15.0171 12.375 14.9402 12.7458 14.791 13.0898C14.6419 13.4339 14.4237 13.7437 14.15 14L9 19" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></g></svg></button>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section id="spa">
+    <div class="spa">
+        <div class="spaImg">
+            <img class="spaImgMobile" src="https://images.unsplash.com/photo-1552046122-03184de85e08?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fHNwYXxlbnwwfDF8MHx8fDI%3D" width="350px" alt="spa">
+        </div>
+        <div class="spaH">
+            <hr class="spaHRfirst">
+            <hr class="spaHRsecond">
+            <h2 class="headerSpa">Luxury Spa</h2>
+            <p class="headerSmallSpa">Balance and align the body, mind and soul with our selection of integrated wellness treatments</p>
+            
+           
+        </div>
+    </div>
+        </section>
+
+
+    <section id="events">
+    <hr class="hrEvents">
+
+    <hr class="hrEventsSecond">
+    <div class="containerPics">
+        <div class="headerEvent"><p></p></div>
+        <div class="partEvents">
+            <h2 class="header headerEvents">Events</h2>
+            <p class="headerSmall headerSmallE">Sleek, sophisticated and laid-back, <br> our style is the embodiment of coastal chic, <br> and our events are no different</p> 
+            <img class="pic last" src="https://images.unsplash.com/photo-1593080358201-08e4ff5f93d9?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="350px" alt="event2">
+        </div>
+        <div>
+        <img class="pic first" src="https://images.unsplash.com/photo-1485178075098-49f78b4b43b4?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA4fHxjb25mZXJlbmNlfGVufDB8MXwwfHx8Mg%3D%3D"  width="300px" alt="event1">
+        </div>
+    </div>
+
+    </section>
+
+    <section id="about_us">
+    <div class="about">
+        <div class="aboutPart">
+       
+            <p class="about_text">Vert, ‘green’ in French, was chosen as the green Hotels brand's name, representing sustainability consciousness, caring for the globe in general and our surroundings everywhere.</p>
+            <p class="about_text">We pledge to do our best to justify this reputation by looking out for ways to minimizing waste, utilize paperless processes like check-in, digital guests information, recycle, use only biodegradable materials, reducing the use of plastic, utilizing solar energy, and saving energy.</p>
+            
+        </div>
+        <img src="logo.png" class="aboutLogo" alt="logo">
+    </div>
+    </section>
+
+    <section id="contact_us">
+    <div class="contactAll">
+        <nav class="menuFooter">
+            <a class="linkFooter" href="#destination">Destinations</a>
+            <a class="linkFooter" href="#rooms"> Rooms & Suites</a>
+            <a class="linkFooter" href="#restaurants">Restaurants & Bars</a>
+            <a class="linkFooter" href="#spa">Luxury Spa</a>
+            <a class="linkFooter" href="#events">Events</a>
+        </nav>
+    <div class="contact_us">
+    <div class="leftFooter">
+    <div class="hotels">
+    <h3 class="headerContact deadSea">Dead Sea</h3>
+    <h3 class="headerContact eilat">Eilat</h3>
+    <h3 class="headerContact jerusalem">Jerusalem</h3>
+    <h3 class="headerContact netanya">Netanya</h3>
+    </div>
+    <div class="details">
+        <p class="contact"><a id="phoneD" href="">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="22" height="22"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M18.4 20.75H18.17C15.5788 20.4681 13.0893 19.5846 10.9 18.17C8.86618 16.8747 7.13938 15.1513 5.84 13.12C4.42216 10.925 3.53852 8.42823 3.26 5.83001C3.22816 5.52011 3.2596 5.20696 3.35243 4.90958C3.44525 4.6122 3.59752 4.33677 3.8 4.10001C3.99694 3.86008 4.24002 3.66211 4.51486 3.51782C4.78969 3.37354 5.09068 3.28587 5.4 3.26001H8C8.56312 3.26058 9.10747 3.46248 9.53476 3.82925C9.96205 4.19602 10.2441 4.70349 10.33 5.26001C10.425 5.97489 10.6028 6.67628 10.86 7.35001C11.0164 7.77339 11.0487 8.23264 10.9531 8.67375C10.8574 9.11485 10.6378 9.51947 10.32 9.84001L9.71 10.45C10.6704 11.9662 11.9587 13.2477 13.48 14.2L14.09 13.6C14.4105 13.2822 14.8152 13.0626 15.2563 12.9669C15.6974 12.8713 16.1566 12.9036 16.58 13.06C17.2545 13.3148 17.9556 13.4926 18.67 13.59C19.236 13.6751 19.7515 13.9638 20.1198 14.402C20.488 14.8403 20.6837 15.3978 20.67 15.97V18.37C20.67 18.9942 20.4227 19.593 19.9823 20.0353C19.5419 20.4776 18.9442 20.7274 18.32 20.73L18.4 20.75ZM8 4.75001H5.61C5.49265 4.75777 5.37809 4.78924 5.27325 4.84252C5.1684 4.8958 5.07545 4.96979 5 5.06001C4.92658 5.14452 4.871 5.24302 4.83663 5.34957C4.80226 5.45612 4.7898 5.56852 4.8 5.68001C5.04249 8.03679 5.83362 10.304 7.11 12.3C8.28664 14.1467 9.85332 15.7134 11.7 16.89C13.6973 18.1798 15.967 18.9878 18.33 19.25C18.4529 19.2569 18.5759 19.2383 18.6912 19.1953C18.8065 19.1522 18.9117 19.0857 19 19C19.1592 18.8368 19.2489 18.6181 19.25 18.39V16C19.2545 15.7896 19.1817 15.5848 19.0453 15.4244C18.9089 15.2641 18.7184 15.1593 18.51 15.13C17.6839 15.0189 16.8724 14.8177 16.09 14.53C15.9359 14.4724 15.7686 14.4596 15.6075 14.4933C15.4464 14.5269 15.2982 14.6055 15.18 14.72L14.18 15.72C14.0629 15.8342 13.912 15.9076 13.7499 15.9292C13.5877 15.9508 13.423 15.9195 13.28 15.84C11.1462 14.6342 9.37997 12.8715 8.17 10.74C8.08718 10.598 8.05402 10.4324 8.07575 10.2694C8.09748 10.1065 8.17286 9.95538 8.29 9.84001L9.29 8.84001C9.40468 8.72403 9.48357 8.57751 9.51726 8.41793C9.55095 8.25835 9.53802 8.09244 9.48 7.94001C9.19119 7.15799 8.98997 6.34637 8.88 5.52001C8.85519 5.30528 8.75133 5.10747 8.58865 4.96513C8.42597 4.82278 8.21613 4.7461 8 4.75001Z" fill="#000000"></path> </g></svg>
+            </a></p>
+        <p class="contact"><a id="emailD" href="">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="22" height="22"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M19 4.25H5C4.53668 4.25263 4.09309 4.43784 3.76546 4.76546C3.43784 5.09309 3.25263 5.53668 3.25 6V18C3.25263 18.4633 3.43784 18.9069 3.76546 19.2345C4.09309 19.5622 4.53668 19.7474 5 19.75H19C19.4633 19.7474 19.9069 19.5622 20.2345 19.2345C20.5622 18.9069 20.7474 18.4633 20.75 18V6C20.7474 5.53668 20.5622 5.09309 20.2345 4.76546C19.9069 4.43784 19.4633 4.25263 19 4.25ZM5 5.75H19C19.0663 5.75 19.1299 5.77634 19.1768 5.82322C19.2237 5.87011 19.25 5.9337 19.25 6V7.54L12 11.16L4.75 7.54V6C4.75 5.9337 4.77634 5.87011 4.82322 5.82322C4.87011 5.77634 4.9337 5.75 5 5.75ZM19 18.25H5C4.9337 18.25 4.87011 18.2237 4.82322 18.1768C4.77634 18.1299 4.75 18.0663 4.75 18V9.21L11.66 12.67C11.7656 12.7228 11.882 12.7503 12 12.7503C12.118 12.7503 12.2344 12.7228 12.34 12.67L19.25 9.21V18C19.25 18.0663 19.2237 18.1299 19.1768 18.1768C19.1299 18.2237 19.0663 18.25 19 18.25Z" fill="#000000"></path> </g></svg>
+            </a></p>
+    </div>
+    </div>
+    <form class="rightFooter">
+        <div class="ipad">
+        <p class="headerFooter">Sign up for offers, news and travel inspiration</p>
+        <div class="emailFooter">
+            <input type="email" id="myEmailFooter" placeholder="Enter your Email">
+            <button class="arrow noActionArrow">
+                <svg viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" width="50" height="40" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="layer1"> <path d="M 14 7 L 17 10 L 0 10 L 0 11 L 17 11 L 14 14 L 15.5 14 L 19 10.5 L 15.5 7 L 14 7 z " style="fill:#222222; fill-opacity:1; stroke:none; stroke-width:0px;"></path> </g> </g></svg>
+            </button>
+        </div>
+        </div>
+        <div class="icons">
+        <a href="https://www.instagram.com/vert_hotels" target="_blank" class="social"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="50" height="50" class="icon"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3.06167 7.24464C3.10844 6.22264 3.26846 5.56351 3.48487 5.00402L3.48778 4.99629C3.70223 4.42695 4.03818 3.91119 4.47224 3.48489L4.47833 3.47891L4.48431 3.47282C4.91096 3.0382 5.42691 2.70258 5.99575 2.4887L6.00556 2.48495C6.56378 2.26786 7.22162 2.10843 8.24447 2.06167M3.06167 7.24464C3.0125 8.33659 2.99997 8.67508 2.99997 11.5063C2.99997 14.3381 3.01181 14.6758 3.06164 15.768M3.06167 7.24464L3.06167 7.52008M3.48867 18.0168C3.70255 18.5856 4.03817 19.1015 4.47279 19.5282L4.47887 19.5342L4.48484 19.5402C4.91116 19.9743 5.42694 20.3103 5.99628 20.5247L6.00478 20.5279C6.56351 20.7446 7.22167 20.9041 8.24447 20.9509M3.48867 18.0168L3.48492 18.0069C3.26783 17.4487 3.1084 16.7909 3.06164 15.768M3.48867 18.0168L3.47585 17.9492M3.06164 15.768L3.07839 15.8562M3.06164 15.768L3.06164 15.4919M3.47585 17.9492L3.07839 15.8562M3.47585 17.9492C3.30704 17.5033 3.13322 16.881 3.07839 15.8562M3.47585 17.9492C3.48177 17.9649 3.48768 17.9803 3.49359 17.9955C3.70766 18.5726 4.04685 19.0952 4.48679 19.5256C4.91708 19.9655 5.43944 20.3046 6.01636 20.5187C6.47934 20.699 7.13172 20.8875 8.24431 20.9385C9.3671 20.9896 9.71399 21 12.5062 21C15.2985 21 15.6457 20.9896 16.7685 20.9385C17.8824 20.8874 18.534 20.6979 18.9954 20.519C19.5726 20.305 20.0953 19.9657 20.5257 19.5256C20.9655 19.0953 21.3046 18.573 21.5187 17.9961C21.699 17.5331 21.8875 16.8808 21.9384 15.7682C21.9895 14.6454 22 14.2978 22 11.5063C22 8.71472 21.9895 8.36684 21.9384 7.24405C21.8871 6.12427 21.6959 5.47168 21.5161 5.00992C21.2811 4.40322 20.9831 3.94437 20.525 3.48627C20.0678 3.02999 19.6102 2.73179 19.003 2.49654C18.5396 2.31537 17.8866 2.12531 16.7685 2.07406C16.6712 2.06964 16.5798 2.06552 16.4921 2.06168M3.07839 15.8562C3.07684 15.8273 3.07539 15.7981 3.07403 15.7685C3.06961 15.6712 3.06548 15.5797 3.06164 15.4919M8.24447 2.06167C9.33668 2.01184 9.67505 2 12.5062 2C15.3374 2 15.6756 2.01252 16.7675 2.06168M8.24447 2.06167L8.52062 2.06167M16.7675 2.06168L16.4921 2.06168M16.7675 2.06168C17.7897 2.10844 18.4489 2.26844 19.0085 2.48487L19.0162 2.48781C19.5855 2.70226 20.1013 3.03821 20.5276 3.47227L20.5335 3.4783L20.5396 3.48422C20.9737 3.91055 21.3096 4.42646 21.5239 4.99596L21.5275 5.00559C21.7446 5.56381 21.9041 6.22165 21.9508 7.2445M8.52062 2.06167L16.4921 2.06168M8.52062 2.06167C9.44548 2.02123 9.95666 2.01253 12.5062 2.01253C15.056 2.01253 15.5671 2.02124 16.4921 2.06168M8.52062 2.06167C8.43284 2.06551 8.34134 2.06964 8.24402 2.07406C7.13004 2.12512 6.47843 2.31464 6.01708 2.49358C5.43767 2.70837 4.91328 3.04936 4.48192 3.49186C4.0281 3.94756 3.73105 4.40422 3.49655 5.0094C3.31536 5.4728 3.12527 6.12614 3.07402 7.24434C3.06961 7.34135 3.06549 7.43257 3.06167 7.52008M21.9508 15.768C21.9041 16.7908 21.7446 17.449 21.5279 18.0077L21.5247 18.0162C21.3102 18.5856 20.9743 19.1013 20.5402 19.5276L20.5341 19.5336L20.5282 19.5397C20.1015 19.9743 19.5856 20.3099 19.0167 20.5238L19.0069 20.5276C18.4487 20.7447 17.7908 20.9041 16.768 20.9509M3.06164 15.4919C3.0212 14.567 3.0125 14.0558 3.0125 11.5063C3.0125 8.95591 3.0212 8.44544 3.06167 7.52008M3.06164 15.4919L3.06167 7.52008M10.8155 15.5881C11.3515 15.8101 11.926 15.9244 12.5062 15.9244C13.678 15.9244 14.8018 15.4589 15.6304 14.6304C16.4589 13.8018 16.9244 12.678 16.9244 11.5063C16.9244 10.3345 16.4589 9.21072 15.6304 8.38215C14.8018 7.55359 13.678 7.0881 12.5062 7.0881C11.926 7.0881 11.3515 7.20238 10.8155 7.42442C10.2794 7.64645 9.79239 7.97189 9.38213 8.38215C8.97187 8.79242 8.64643 9.27947 8.42439 9.81551C8.20236 10.3515 8.08808 10.9261 8.08808 11.5063C8.08808 12.0865 8.20236 12.661 8.42439 13.197C8.64643 13.7331 8.97187 14.2201 9.38213 14.6304C9.79239 15.0406 10.2794 15.3661 10.8155 15.5881ZM9.37229 8.37231C10.2035 7.54113 11.3308 7.07418 12.5062 7.07418C13.6817 7.07418 14.809 7.54113 15.6402 8.37231C16.4714 9.20349 16.9383 10.3308 16.9383 11.5063C16.9383 12.6817 16.4714 13.809 15.6402 14.6402C14.809 15.4714 13.6817 15.9383 12.5062 15.9383C11.3308 15.9383 10.2035 15.4714 9.37229 14.6402C8.54111 13.809 8.07416 12.6817 8.07416 11.5063C8.07416 10.3308 8.54111 9.20349 9.37229 8.37231ZM19.434 6.04229C19.434 6.37873 19.3003 6.70139 19.0625 6.93929C18.8246 7.17719 18.5019 7.31084 18.1655 7.31084C17.829 7.31084 17.5064 7.17719 17.2685 6.93929C17.0306 6.70139 16.8969 6.37873 16.8969 6.04229C16.8969 5.70585 17.0306 5.38319 17.2685 5.1453C17.5064 4.9074 17.829 4.77375 18.1655 4.77375C18.5019 4.77375 18.8246 4.9074 19.0625 5.1453C19.3003 5.38319 19.434 5.70585 19.434 6.04229Z" stroke="#000000" stroke-linejoin="round"></path> </g></svg></a>
+        <a href="https://www.facebook.com/VertHotels" target="_blank" class="social"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="50" height="50" class="icon"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M22 12C22 6.47714 17.5229 1.99999 12 1.99999C6.47715 1.99999 2 6.47714 2 12C2 16.9913 5.65686 21.1283 10.4375 21.8785V14.8906H7.89844V12H10.4375V9.79687C10.4375 7.29062 11.9304 5.90624 14.2146 5.90624C15.3087 5.90624 16.4531 6.10155 16.4531 6.10155V8.56249H15.1921C13.9499 8.56249 13.5625 9.33333 13.5625 10.1242V12H16.3359L15.8926 14.8906H13.5625V21.8785C18.3431 21.1283 22 16.9913 22 12Z" stroke="#000000" stroke-linejoin="round"></path> </g></svg></a>
+        </div>
+    </form>  
+    
+    </div>
+    <a href="#video" class="arrowUp"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M12 21V4.707L9.354 7.354l-.707-.707L12.5 2.793l3.854 3.854-.707.707L13 4.707V21z"></path><path fill="none" d="M0 0h24v24H0z"></path></g></svg></a>
+    <p class="creator">© 2024 Koziukova Polina</p>
+    </div>
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="script v2.js"></script>
+
+
+</body>
+</html>
